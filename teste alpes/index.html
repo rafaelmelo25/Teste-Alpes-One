@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Teste Alpes Feito por Rafael Eustaquio Melo Pereira-->
+<html>
+	<head>
+		<title>Teste Alpes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="Marketing"></div>
+          <p><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marketing - Análise
+          </font></p>
+        </div>
+		<!-- Main -->
+			<div id="main">
+				<input id="Aplicar" type="button" value="Aplicar" style="width: 110px; height: 30px">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+					<div>
+						<header>
+						<table width="1400" height="500" cellspacing="1" cellpadding="3" border="0" bgcolor="#BEBEBE"> 
+								<tr> 
+   								<td><font color="#FFFFFF" face="arial, verdana, helvetica"> 
+								<aside id="Grafico">			
+								<a id="label"><label for="cGrupo">Visão geral do Analytics</label></a> </font>
+								<select id="box" nome="tGrupo" id="cGrupo">
+									<option id="box" value="Grupo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Grupo</font></font></option>
+								        <option value="BS">Bom Sucesso</option>
+								    </select>
+   		
+								<select id="box2" nome="tEmpesa" id="cEmpesa">
+									<option id="box" value="Empresa"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Empresa</font></font></option>
+										<option value="AO">Alpes One</option>
+					</select>
+				</div>
+
+					<div id="box3">
+          				<select id="box3">
+          				  <option value="Período"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Período</font></font></option>
+           					 <option value="Últimos 7 dias"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Últimos 7 dias</font></font></option>
+          					  <option value="Últimos 15 dias"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Últimos 15 dias</font></font></option>
+            				<option value="Ultimos 30 dias"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ultimos 30 dias</font></font></option>
+
+       </font>
+   		</td>
+   		</tr> 
+       </table>
+       </select> 
+        </div>
+			<img src="images/visaogeral01.png" width="520" height="280" alt="visaogeral01" id="imgvisaogeral01" />
+			<img src="images/visaogeral02.png" width="520" height="280" alt="visaogeral02" id="imgvisaogeral02" />
+</aside>
+</section>
+<script>
+			var markdownlint = require('markdownlint')
+
+var options = {
+  'files': ['./README.md'],
+  'config': require('./relaxed.json')
+}
+
+markdownlint(options, function callback (err, result) {
+  if (result.toString().length > 1) {
+    console.log(result.toString())
+    process.exit(1)
+  } else {
+    console.log('Pass')
+  }
+})
+</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</div>
+</html>
